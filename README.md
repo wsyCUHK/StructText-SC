@@ -24,10 +24,7 @@ suitable for supervised fine-tuning of image-to-text multimodal models.
 
 The released training file is:
 
-```text
-train_20260428.jsonl
-
-## Data Format
+ 
 Example:
 {
   "messages": [
