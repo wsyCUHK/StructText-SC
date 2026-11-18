@@ -1,0 +1,20 @@
+{
+  "file": "train_20260428.jsonl",
+  "bytes": 3428995,
+  "sha256": "35fe589d246c5098cb6e5fb34a76e253b7129a2f61055174f156230385679662",
+  "records": 1234,
+  "unique_images": 1234,
+  "images_per_record": 1,
+  "duplicate_records": 0,
+  "duplicate_image_references": 0,
+  "message_roles": [
+    "system",
+    "user",
+    "assistant"
+  ],
+  "image_path_prefixes": {
+    "Dataset/coco3k_source_data_train": 1234
+  },
+  "image_files_checked": false,
+  "expected_sha256_checked": true
+}

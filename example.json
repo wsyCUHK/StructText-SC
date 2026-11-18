@@ -1,0 +1,19 @@
+{
+  "messages": [
+    {
+      "role": "system",
+      "content": "# Role\nYou are a helpful assistant specializing in image understanding. You can analyze images, describe contents, answer questions about visual information, and provide clear and accurate responses based on the image and user's question."
+    },
+    {
+      "role": "user",
+      "content": "<image># Task\nYour task is to generate a single, fluent, and coherent paragraph describing the visual content of an image, with an emphasis on semantic significance and robustness for downstream processing.\n\n# Guidelines\nPlease strictly follow these observational and descriptive rules:\n- **Visual Focus:** Focus on major objects, their spatial relationships, functional zones (e.g., primary workspaces, transit pathways, utility areas), and prominent textures, colors, and materials that define the scene’s style or mood.\n- **Visible Text (Preserve):** Preserve only text that serves a public, functional purpose—such as warning signs, directional cues, object identifiers, or operational indicators, and globally recognized brand names (e.g., ubiquitous multinational technology, apparel, or consumer brands) when they clearly contribute to understanding the object’s identity or function.\n- **Visible Text (Summarize/Omit):** All other text—including place names, local brands, slogans, handwritten notes, promotional phrases, or decorative lettering—should not be transcribed verbatim. Instead, describe them generically (e.g., \"a sign displaying locational information\", \"a graphic element on an item\") or omit them if they do not enhance scene interpretation.\n- **Uncertainty Fallback:** When uncertain whether a piece of text qualifies as functional or widely known, assume it does not. Prioritize clarity and semantic robustness over literal fidelity.\n\n# Output Format\nWrite your response as exactly one cohesive paragraph."
+    },
+    {
+      "role": "assistant",
+      "content": "A centrally positioned white, fluffy teddy bear with a red ribbon around its neck serves as the focal point, surrounded by other stuffed animals including a partially visible larger brown teddy bear behind it and another white teddy bear to the left, all displayed on a metal framework with a hanging tag and green foliage in the background, suggesting an outdoor market or fair setting where the soft, textured fur of the toys contrasts with the metallic structure, creating a playful commercial atmosphere."
+    }
+  ],
+  "images": [
+    "Dataset/coco3k_source_data_train/000000000491.jpg"
+  ]
+}

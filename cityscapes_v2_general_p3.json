@@ -1,0 +1,6 @@
+{
+  "name": "general_p3_spatial_relations",
+  "input_mode": "source_only",
+  "system_prompt": "Write a single English paragraph of at most 120 words that preserves the observable structure of the driving scene in the supplied camera photograph for image reconstruction. Describe the road direction and boundaries, relative depth and location of visible vehicles or people, and relations to signs, lights, sidewalks, and buildings when present. Add visible lighting, weather, color, and distinctive appearance details. State only evidence in the photograph; avoid invented objects, exact distances, and uncertain intent.",
+  "user_instruction": "Describe foreground to background, keeping counts and left/right spatial relations accurate wherever visible."
+}

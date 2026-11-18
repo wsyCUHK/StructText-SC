@@ -1,0 +1,18 @@
+{
+  "name": "StructText-SC data and workflow snapshot",
+  "prepared_on": "2026-11-18",
+  "upstream_repository": "https://github.com/wsyCUHK/StructText-SC",
+  "workflow_source_archive": "github_release.zip",
+  "workflow_source_archive_sha256": "a9d4e8a466889d7b3b52f37ae5b0f7e54bf8ace7d0715dc29bb670d8ea0ef7a4",
+  "dataset_sha256": "35fe589d246c5098cb6e5fb34a76e253b7129a2f61055174f156230385679662",
+  "local_cpu_validation": {
+    "tests_discovered": 55,
+    "passed": 53,
+    "skipped_linux_only": 2,
+    "failed": 0
+  },
+  "gpu_end_to_end_validated": false,
+  "source_only_captioning_default": true,
+  "checksum_file": "SHA256SUMS",
+  "notes": "SHA256SUMS lists all package files except itself. Legacy dataset bytes are preserved. Model weights and source image datasets are external."
+}

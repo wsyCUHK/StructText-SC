@@ -1,0 +1,5 @@
+# Core orchestration and packet channel; install model-specific stacks separately.
+numpy
+Pillow
+requests
+reedsolo

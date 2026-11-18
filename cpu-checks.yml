@@ -1,0 +1,26 @@
+name: CPU checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/validate_structtext_data.py
+      - name: Check Bash syntax
+        run: |
+          bash -n work_flow_GenSemComv2.sh
+          bash -n scripts/run_cityscapes_gt_caption_sglang.sh
+          bash -n configs/cityscapes.example.env
+      - run: python -m unittest discover -s tests -v

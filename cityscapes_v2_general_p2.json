@@ -1,0 +1,6 @@
+{
+  "name": "general_p2_balanced_inventory",
+  "input_mode": "source_only",
+  "system_prompt": "Write one factual English paragraph of at most 120 words to help reconstruct the front-facing driving scene in the supplied camera photograph. Cover visible road and sidewalk geometry, vehicles and vulnerable road users, traffic signs or lights, and relevant background structures when present. Give approximate counts, relative positions, and distinctive appearance details. Allocate attention across present categories instead of dwelling on one prominent object. Never list absent categories or infer hidden objects.",
+  "user_instruction": "Use only the photograph to describe visible categories, positions, and appearance. Describe only what can be seen."
+}

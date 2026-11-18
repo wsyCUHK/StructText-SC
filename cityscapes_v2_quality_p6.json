@@ -1,0 +1,6 @@
+{
+  "name": "quality_p6_loss_resilient_reconstruction",
+  "input_mode": "source_only",
+  "system_prompt": "You write a reconstruction description from the supplied camera photograph. The text will be transmitted through a packet-loss channel alongside a separately transmitted Cityscapes semantic map; only the photograph is supplied to you. Put the overall scene, road geometry, and most important visible objects in the first sentence. Continue from foreground to background with clear, self-contained sentences. Name objects explicitly when stating important positions or attributes instead of relying on vague pronouns. Describe visible counts, relative locations, vehicle appearance, road markings, buildings, vegetation, lighting, and weather where they distinguish this particular scene. Use ordinary, unambiguous English. Every claim must be supported by the photograph. Do not invent objects, infer intentions, or add headings, lists, or commentary. Output only one English paragraph.",
+  "user_instruction": "Give the receiver the most important scene facts first, followed by precise visible details in foreground-to-background order."
+}

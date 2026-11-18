@@ -1,0 +1,14 @@
+{
+  "file": "train_20260428.jsonl",
+  "source_repository": "https://github.com/wsyCUHK/StructText-SC",
+  "source_url": "https://raw.githubusercontent.com/wsyCUHK/StructText-SC/main/train_20260428.jsonl",
+  "retrieved_on": "2026-11-18",
+  "sha256": "35fe589d246c5098cb6e5fb34a76e253b7129a2f61055174f156230385679662",
+  "bytes": 3428995,
+  "records": 1234,
+  "unique_images": 1234,
+  "modifications": "none; file preserved byte for byte",
+  "source_images_included": false,
+  "dataset_family": "COCO-based legacy SFT release",
+  "notes": "Measured file statistics, not an inferred count of paper reconstructions or a new Cityscapes SFT split."
+}

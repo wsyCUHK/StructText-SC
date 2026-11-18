@@ -1,0 +1,6 @@
+# Optional Qwen-Image-2.1 environment; choose compatible CUDA and model versions.
+-r requirements.txt
+torch
+diffusers
+transformers
+accelerate

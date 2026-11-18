@@ -1,0 +1,4 @@
+# Optional BLIP caption environment; choose a CUDA-compatible torch build.
+-r requirements.txt
+torch
+transformers
